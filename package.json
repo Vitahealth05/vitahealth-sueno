@@ -1,0 +1,26 @@
+{
+  "name": "vitahealth-sueno",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Módulo front-end de seguimiento del sueño de VitaHealth (React).",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/construir.js --dev",
+    "build": "node scripts/construir.js",
+    "test": "node --test",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\" \"tests/**/*.js\" \"scripts/**/*.js\""
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "esbuild": "0.28.2",
+    "eslint": "^10.1.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.8.1"
+  }
+}
